@@ -1,0 +1,9 @@
+[{
+   "prompt": "actual prompt inputs",
+   "gen_msg": "gpt responses",
+   "metadata": {
+      "priority": "normal/high/low",
+      "category": "work/personal",
+      "timestamp": "auto-generated"
+   }
+}]

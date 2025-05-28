@@ -1,9 +1,10 @@
 import openai
+import os
 
 class GPTClient:
     def __init__(self,api_key):
-        self.api_key = api_key
-        self.client = openai.OpenAI(api_key=api_key)
+        os.environ["OPENAI_API_KEY"] = api_key
+        self.client = openai.OpenAI()
     
     def generate_email(self,prompt,model='gpt-4o'):
         self.response = self.client.chat.completions.create(

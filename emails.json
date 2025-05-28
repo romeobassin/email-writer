@@ -16,5 +16,14 @@
       "category": "work",
       "timestamp": "2025-05-28T19:34:12.982581"
     }
+  },
+  {
+    "prompt": "tell that this message is a test from my test program and human didnt send this",
+    "response": "Zdravo,\n\nTa e-po\u0161ta je poslana kot del testnega programa. Napisal sem jo z avtomatiziranim sistemom, ne pa osebno. \u010ce imate kakr\u0161na koli vpra\u0161anja ali potrebujete dodatne informacije, mi prosim sporo\u010dite.\n\nLep pozdrav,\n\nRomeo Bassin",
+    "metadata": {
+      "priority": "High",
+      "category": "Personal",
+      "timestamp": "2025-05-28T22:46:30.522284"
+    }
   }
 ]

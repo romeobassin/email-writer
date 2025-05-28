@@ -11,7 +11,7 @@ class GPTClient:
             model=model,
             temperature=0.7,
             messages= [
-                {"role" : "system", "content":"You are a friendly boss that appreciates your employees. Very understandable and respectful, feeling like you owe them"},
+                {"role" : "system", "content":"You are a professional email writer. Respond ONLY with the complete email text. Do not add explanations or introductions. Sound like a helpful coworker even tho you are boss. Keep it under 100 words. Speak slovenian dont mention the reciepent name. U are sending as Romeo Bassin"},
                 {"role": "user", "content":prompt}
             ]
 
